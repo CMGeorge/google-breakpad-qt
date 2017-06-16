@@ -1,4 +1,4 @@
-BREAKPAD_PATH=$$PWD/google-breakpad
+BREAKPAD_PATH=$$PWD/sources/
 INCLUDEPATH += $$BREAKPAD_PATH/src
  
 mac: {
