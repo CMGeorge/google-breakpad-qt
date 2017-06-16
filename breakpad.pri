@@ -87,7 +87,7 @@ linux: {
   HEADERS += $$BREAKPAD_PATH/src/google_breakpad/common/minidump_format.h
   HEADERS += $$BREAKPAD_PATH/src/google_breakpad/common/minidump_size.h
   HEADERS += $$BREAKPAD_PATH/src/google_breakpad/common/breakpad_types.h
-  HEADERS += $$BREAKPAD_PATH/src/third_party/lss/linux_syscall_support.h
+  HEADERS += $$PWD/include/third_party/lss/linux_syscall_support.h
   
   SOURCES += $$BREAKPAD_PATH/src/client/linux/crash_generation/crash_generation_client.cc
   SOURCES += $$BREAKPAD_PATH/src/client/linux/handler/exception_handler.cc
