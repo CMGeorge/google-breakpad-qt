@@ -1,5 +1,6 @@
 BREAKPAD_PATH=$$PWD/sources/
 INCLUDEPATH += $$BREAKPAD_PATH/src
+INCLUDEPATH += $$PWD/include/
  
 mac: {
   HEADERS += $$BREAKPAD_PATH/src/client/mac/handler/exception_handler.h
