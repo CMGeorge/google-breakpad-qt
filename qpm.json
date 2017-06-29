@@ -9,10 +9,10 @@
     "url": "git@github.com:remarkableno/google-breakpad-qt.git"
   },
   "version": {
-    "label": "0.0.4"
+    "label": "0.0.5"
   },
   "dependencies": [
   ],
   "license": "BSD_3_CLAUSE",
-  "priFilename": "breakpad.pri"
+  "pri_filename": "breakpad.pri"
 }
